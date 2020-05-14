@@ -11,11 +11,11 @@ def batch_badge_creator(speakers)
  end
  
 def assigns_rooms(peoples)
-  rooms = []
+  spaces = []
  peoples.each_with_index do |people, idx|
-   rooms << "Hello, #{people}! You'll be assigned to room #{idx}!"
+   spaces << "Hello, #{people}! You'll be assigned to room #{idx}!"
   end
-  rooms
+  spaces
   end
   
   
