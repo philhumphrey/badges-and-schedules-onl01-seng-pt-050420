@@ -17,6 +17,8 @@ def assigns_rooms(peoples)
   end
   rooms
   end
+  idx
+end
   
   def printer
   puts batch_badge_creator
