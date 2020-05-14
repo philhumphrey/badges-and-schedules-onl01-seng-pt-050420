@@ -6,6 +6,7 @@ end
 def batch_badge_creator(speakers)
   results = []
  speakers.each do |speaker|
+   binding.pry
   results << "Hello, my name is #{speaker}."
   end
   results
