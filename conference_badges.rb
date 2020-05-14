@@ -15,7 +15,7 @@ def assigns_rooms(peoples)
  peoples.each_with_index do |people, idx|
    rooms << "Hello, #{people}! You'll be assigned to room #{idx}!"
   end
-  rooms, idx
+  rooms
   end
   
   def printer
