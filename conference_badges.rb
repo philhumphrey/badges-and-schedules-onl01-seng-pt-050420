@@ -6,7 +6,6 @@ end
 def batch_badge_creator(speakers)
   results = []
  speakers.each do |speaker|
-   binding.pry
   results << "Hello, my name is #{speaker}."
   end
   results
@@ -21,7 +20,8 @@ def assign_rooms(peoples)
   end
   
   def printer(batch)
-  puts batch_badge_creator(batch).each do |anything|
-    binding.pry
+  batch_badge_creator(batch).each do |anything|
+  binding.pry
+  end
   puts assign_rooms(batch)
 end
