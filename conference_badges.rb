@@ -17,8 +17,7 @@ def assigns_rooms(peoples)
   end
   spaces
   end
-  idx
-end
+  
   
   def printer
   puts batch_badge_creator
