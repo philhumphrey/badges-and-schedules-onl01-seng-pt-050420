@@ -23,5 +23,7 @@ def assign_rooms(peoples)
   batch_badge_creator(batch).each do |greetings|
     puts greetings
   end
-  puts assign_rooms(batch)
+  assign_rooms(batch).each do |room_numbers|
+    puts room_numbers
+  end
 end
