@@ -12,13 +12,11 @@ def batch_badge_creator(speakers)
  
 def assigns_rooms(peoples)
   spaces = []
-  
  peoples.each_with_index do |people, idx|
    spaces << "Hello, #{people}! You'll be assigned to room #{idx}!"
   end
   spaces
   end
-  
   
   def printer
   puts batch_badge_creator
